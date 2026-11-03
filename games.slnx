@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Engine/" />
+  <Folder Name="/Engine/Core/">
+    <Project Path="engine/Core/Engine/Engine.csproj" />
+    <Project Path="engine/Core/MonoGame.Forked/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj" />
+    <Project Path="engine/Core/MonoGame.ImGuiNet-main/MonoGame.ImGuiNet/Monogame.ImGuiNet.csproj" />
+  </Folder>
+  <Folder Name="/Engine/Editor/">
+    <Project Path="engine/Editor/AvaloniaMonogame/AvaloniaInside.MonoGame.csproj" />
+    <Project Path="engine/Editor/MapCompiler/MapCompiler.csproj" />
+    <Project Path="engine/Editor/Rockwall2/Rockwall2.csproj" />
+  </Folder>
+  <Folder Name="/Engine/Shared/">
+    <Project Path="engine/Shared/ChiselEditorUtils/ChiselEditorUtils.shproj" />
+    <Project Path="engine/Shared/ChiselModelTypes/ChiselModelTypes.shproj" />
+    <Project Path="engine/Shared/ChiselSharedTypes/ChiselSharedTypes.shproj" />
+  </Folder>
+  <Folder Name="/Templates/">
+    <Project Path="engine/MinimalGame/MinimalGame.csproj" />
+  </Folder>
+  <Folder Name="/Projects/" />
+</Solution>

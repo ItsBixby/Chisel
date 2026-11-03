@@ -1,0 +1,9 @@
+{
+  "engineRepo": "https://github.com/ElgenTidwell/Chisel",
+  "engineCommit": "98c04f28d55973dfeaee75941e914614baa2107c",
+  "engineBranch": "stable",
+  "engineVersion": "1.1.1",
+  "sdkVersion": null,
+  "sdkTemplateTree": null,
+  "channel": "stable"
+}
