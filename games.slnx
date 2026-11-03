@@ -19,5 +19,7 @@
     <Project Path="engine/MinimalGame/MinimalGame.csproj" />
     <Project Path="templates/FPSTemplate/FPSTemplate.csproj" />
   </Folder>
-  <Folder Name="/Projects/" />
+  <Folder Name="/Projects/">
+    <Project Path="projects/EngineTesting/EngineTesting.csproj" />
+  </Folder>
 </Solution>

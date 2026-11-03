@@ -1,0 +1,9 @@
+{
+  "name": "waterdrop",
+  "texture": "Textures/particles/droplet",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": true
+}

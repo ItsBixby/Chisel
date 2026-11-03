@@ -1,0 +1,9 @@
+{
+  "name": "NPC Head",
+  "texture": "Textures/actor/npc_face_01",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/actor/npc_face_01_normal",
+  "surfaceType": "concrete",
+  "reflectivity": 2,
+  "transparent": false
+}

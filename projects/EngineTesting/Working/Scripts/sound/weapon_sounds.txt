@@ -1,0 +1,22 @@
+$StandardPitch = random(0.9, 1.1)
+
+Weapon.SMG.FireShot
+{
+	channel = SFX
+	volume = random(0.6, 0.7)
+	pitch = $StandardPitch
+
+	sound = "Audio/Weapons/BaseSMG/smgfire.ogg"
+}
+
+// For now, these other weapons are just stubs. 
+// You can easily add unique sounds to them,
+// though, by overriding the 'sound' property!
+
+Weapon.Shotgun.FireShot : Weapon.SMG.FireShot
+{
+}
+
+Weapon.RPG.FireShot : Weapon.SMG.FireShot
+{
+}

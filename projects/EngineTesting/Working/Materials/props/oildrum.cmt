@@ -1,0 +1,9 @@
+{
+  "name": "Oil Drum",
+  "texture": "Textures/props/oildrumColor",
+  "specular": "Textures/props/oildrumSpecular",
+  "normal": "Textures/props/oildrumNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 3,
+  "transparent": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "NPC Body",
+  "texture": "Textures/actor/npc_bodysheet_red",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/actor/npc_bodysheet_red_normal",
+  "surfaceType": "concrete",
+  "reflectivity": 2,
+  "transparent": false
+}

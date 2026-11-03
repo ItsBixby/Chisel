@@ -1,0 +1,9 @@
+{
+  "name": "Base Model",
+  "texture": "Textures/base/basicModelColor",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 2,
+  "transparent": false
+}

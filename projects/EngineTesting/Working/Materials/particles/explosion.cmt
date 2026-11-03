@@ -1,0 +1,9 @@
+{
+  "name": "explosion",
+  "texture": "Textures/particles/explosion1",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": true
+}

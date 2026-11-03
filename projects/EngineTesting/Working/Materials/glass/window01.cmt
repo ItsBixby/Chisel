@@ -1,0 +1,9 @@
+﻿{
+  "name": "Window 01",
+  "texture": "Textures/glass/window",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 1,
+  "transparent": true
+}

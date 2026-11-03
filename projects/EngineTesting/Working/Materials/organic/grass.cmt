@@ -1,0 +1,9 @@
+{
+  "name": "Grass",
+  "texture": "Textures/organic/grassDiffuse",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/organic/grassNormal",
+  "surfaceType": "grass",
+  "reflectivity": 1.0,
+  "transparent": false
+}

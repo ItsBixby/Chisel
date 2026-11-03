@@ -1,0 +1,9 @@
+{
+  "name": "spark",
+  "texture": "Textures/spark",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": true
+}

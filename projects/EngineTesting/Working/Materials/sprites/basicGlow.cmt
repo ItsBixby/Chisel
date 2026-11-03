@@ -1,0 +1,9 @@
+{
+  "name": "Basic Glow Sprite",
+  "texture": "Textures/sprites/glow_01",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": false
+}

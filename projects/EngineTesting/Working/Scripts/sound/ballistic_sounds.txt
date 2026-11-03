@@ -1,0 +1,23 @@
+// These are sounds for all the bullet stuff; impacts and whatever else might come.
+
+Bullet.Impact.concrete
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/Impact/bullet_surface-01.ogg",
+		"Audio/Impact/bullet_surface-02.ogg",
+		"Audio/Impact/bullet_surface-03.ogg"
+	}
+}
+
+Bullet.Impact.flesh
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/Impact/bullet_flesh-01.ogg",
+		"Audio/Impact/bullet_flesh-02.ogg",
+		"Audio/Impact/bullet_flesh-03.ogg"
+	}
+}

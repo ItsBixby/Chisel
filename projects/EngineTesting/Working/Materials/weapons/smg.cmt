@@ -1,0 +1,9 @@
+{
+  "name": "Weapon SMG",
+  "texture": "Textures/weapons/smg_diffuse",
+  "specular": "Textures/weapons/smg_spec",
+  "normal": "Textures/weapons/smg_normal",
+  "surfaceType": "concrete",
+  "reflectivity": 25,
+  "transparent": false
+}

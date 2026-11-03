@@ -1,0 +1,9 @@
+{
+  "name": "Tree Trunk",
+  "texture": "Textures/folliage/treeTrunkDiffuse",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/folliage/treeTrunkNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.7,
+  "transparent": false
+}

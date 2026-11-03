@@ -1,0 +1,9 @@
+{
+  "name": "debris",
+  "texture": "Textures/particles/debris",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": false
+}

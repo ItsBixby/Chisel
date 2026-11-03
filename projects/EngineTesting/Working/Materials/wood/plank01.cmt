@@ -1,0 +1,9 @@
+{
+  "name": "Plank 01",
+  "texture": "Textures/wood/plank01Diffuse",
+  "specular": "Textures/wood/plank01Specular",
+  "normal": "Textures/wood/plank01Normal",
+  "surfaceType": "concrete",
+  "reflectivity": 1.0,
+  "transparent": false
+}
