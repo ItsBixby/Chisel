@@ -17,6 +17,7 @@
   </Folder>
   <Folder Name="/Templates/">
     <Project Path="engine/MinimalGame/MinimalGame.csproj" />
+    <Project Path="templates/FPSTemplate/FPSTemplate.csproj" />
   </Folder>
   <Folder Name="/Projects/" />
 </Solution>

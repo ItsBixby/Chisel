@@ -1,0 +1,9 @@
+{
+  "name": "blood_spray",
+  "texture": "Textures/particles/bloodspray",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": false
+}

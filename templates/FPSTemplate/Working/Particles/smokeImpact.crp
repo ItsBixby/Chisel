@@ -1,0 +1,146 @@
+{
+  "subsystemBehaviors": [
+    {
+      "emissionType": 0,
+      "renderType": 0,
+      "blendMode": 0,
+      "lifetime": 0.6,
+      "startDelay": 0.0,
+      "particleSpawnRate": 0.05,
+      "particles": 2,
+      "material": "smoke",
+      "model": "",
+      "startVelocity": {
+        "min": "-0.2, 0.8, -0.2",
+        "max": "0.2, 1.6, 0.2"
+      },
+      "startPosition": {
+        "min": "0, 0.1, 0",
+        "max": "0, 0.2, 0"
+      },
+      "startSize": {
+        "min": 0.4,
+        "max": 1.6
+      },
+      "angularVelocity": {
+        "min": 0.9,
+        "max": 90.0
+      },
+      "startFrame": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "startColor": {
+        "min": {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        },
+        "max": {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        }
+      },
+      "endColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "sizeOverLifetime": {
+        "start": 1.1058824,
+        "mid": 2.4941177,
+        "end": 3.717647
+      },
+      "alphaOverLifetime": {
+        "start": 1.0,
+        "mid": 0.7117647,
+        "end": 0.0
+      },
+      "ignoreLighting": false,
+      "gravity": -3.0,
+      "spriteSheetColumns": 0,
+      "spriteSheetRows": 0,
+      "spriteSheetTotalFrames": 0,
+      "spriteFramesPerSecond": 0.0,
+      "spriteLoopFrames": false,
+      "spriteMaxTime": "-Infinity"
+    },
+    {
+      "emissionType": 0,
+      "renderType": 0,
+      "blendMode": 0,
+      "lifetime": 0.3,
+      "startDelay": 0.0,
+      "particleSpawnRate": 0.0,
+      "particles": 2,
+      "material": "smoke",
+      "model": null,
+      "startVelocity": {
+        "min": "-0.5, 5, -0.5",
+        "max": "0.5, 14, 0.5"
+      },
+      "startPosition": {
+        "min": "0, 0, 0",
+        "max": "0, 0, 0"
+      },
+      "startSize": {
+        "min": 2.0,
+        "max": 5.0
+      },
+      "angularVelocity": {
+        "min": -250.0,
+        "max": 250.0
+      },
+      "startFrame": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "startColor": {
+        "min": {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        },
+        "max": {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        }
+      },
+      "endColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "sizeOverLifetime": {
+        "start": 1.2,
+        "mid": 0.84705883,
+        "end": 0.7058824
+      },
+      "alphaOverLifetime": {
+        "start": 0.57058823,
+        "mid": 0.14705883,
+        "end": 0.0
+      },
+      "ignoreLighting": false,
+      "gravity": -2.0,
+      "spriteSheetColumns": 0,
+      "spriteSheetRows": 0,
+      "spriteSheetTotalFrames": 0,
+      "spriteFramesPerSecond": 0.0,
+      "spriteLoopFrames": false,
+      "spriteMaxTime": "-Infinity"
+    }
+  ],
+  "lifetime": 1.0,
+  "collidesWithWorld": false,
+  "bounce": 0.0,
+  "velocityDampening": 0.0
+}

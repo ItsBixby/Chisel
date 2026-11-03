@@ -1,0 +1,211 @@
+﻿// These are all of the NPC sounds.
+// In a real game, you probably wouldnt use soundscripts for this;
+// instead you'd use the morph animator and animate each line of dialog,
+// and let them play automatically through that.
+$STDPitch = random(0.99, 1.01)
+
+NPC.Base
+{
+	channel = SFX
+	volume = 1 
+	minDistance = 3
+	maxDistance = 70
+}
+
+// FRIEND
+
+NPC.Friend.Pain : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/pain01.ogg",
+		"Audio/NPCs/friend/pain02.ogg",
+		"Audio/NPCs/friend/pain03.ogg"
+	}
+}
+NPC.Friend.Die : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/death01.ogg",
+		"Audio/NPCs/friend/death02.ogg",
+		"Audio/NPCs/friend/death03.ogg"
+	}
+}
+NPC.Friend.Contact : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/contact01.ogg",
+		"Audio/NPCs/friend/contact02.ogg",
+		"Audio/NPCs/friend/contact03.ogg",
+		"Audio/NPCs/friend/contact04.ogg",
+		"Audio/NPCs/friend/contact05.ogg"
+	}
+}
+NPC.Friend.Cover : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/cover01.ogg",
+		"Audio/NPCs/friend/cover02.ogg"
+	}
+}
+NPC.Friend.Flank : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/flank01.ogg",
+		"Audio/NPCs/friend/flank02.ogg",
+		"Audio/NPCs/friend/flank03.ogg"
+	}
+}
+NPC.Friend.Follow : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/follow01.ogg",
+		"Audio/NPCs/friend/follow02.ogg",
+		"Audio/NPCs/friend/follow03.ogg",
+		"Audio/NPCs/friend/follow04.ogg",
+		"Audio/NPCs/friend/follow05.ogg"
+	}
+}
+NPC.Friend.Frag : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/frag01.ogg",
+		"Audio/NPCs/friend/frag02.ogg",
+		"Audio/NPCs/friend/frag03.ogg",
+		"Audio/NPCs/friend/frag04.ogg"
+	}
+}
+NPC.Friend.Lost : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/lost01.ogg",
+		"Audio/NPCs/friend/lost02.ogg",
+		"Audio/NPCs/friend/lost03.ogg",
+		"Audio/NPCs/friend/lost04.ogg"
+	}
+}
+NPC.Friend.Suppress : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/friend/suppress01.ogg",
+		"Audio/NPCs/friend/suppress02.ogg",
+		"Audio/NPCs/friend/suppress03.ogg"
+	}
+}
+
+
+// FOE
+
+
+NPC.Enemy.Pain : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/pain01.ogg",
+		"Audio/NPCs/enemy/pain02.ogg",
+		"Audio/NPCs/enemy/pain03.ogg"
+	}
+}
+NPC.Enemy.Die : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/death01.ogg",
+		"Audio/NPCs/enemy/death02.ogg",
+		"Audio/NPCs/enemy/death03.ogg"
+	}
+}
+NPC.Enemy.Contact : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/contact01.ogg",
+		"Audio/NPCs/enemy/contact02.ogg",
+		"Audio/NPCs/enemy/contact03.ogg",
+		"Audio/NPCs/enemy/contact04.ogg",
+		"Audio/NPCs/enemy/contact05.ogg"
+	}
+}
+NPC.Enemy.Cover : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/cover01.ogg",
+		"Audio/NPCs/enemy/cover02.ogg"
+	}
+}
+NPC.Enemy.Flank : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/flank01.ogg",
+		"Audio/NPCs/enemy/flank02.ogg",
+		"Audio/NPCs/enemy/flank03.ogg"
+	}
+}
+NPC.Enemy.Follow : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/follow01.ogg",
+		"Audio/NPCs/enemy/follow02.ogg",
+		"Audio/NPCs/enemy/follow03.ogg",
+		"Audio/NPCs/enemy/follow04.ogg",
+		"Audio/NPCs/enemy/follow05.ogg"
+	}
+}
+NPC.Enemy.Frag : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/frag01.ogg",
+		"Audio/NPCs/enemy/frag02.ogg",
+		"Audio/NPCs/enemy/frag03.ogg",
+		"Audio/NPCs/enemy/frag04.ogg"
+	}
+}
+NPC.Enemy.Lost : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/lost01.ogg",
+		"Audio/NPCs/enemy/lost02.ogg",
+		"Audio/NPCs/enemy/lost03.ogg",
+		"Audio/NPCs/enemy/lost04.ogg"
+	}
+}
+NPC.Enemy.Suppress : NPC.Base
+{
+	channel = SFX
+	sound = select(random)
+	{
+		"Audio/NPCs/enemy/suppress01.ogg",
+		"Audio/NPCs/enemy/suppress02.ogg",
+		"Audio/NPCs/enemy/suppress03.ogg"
+	}
+}

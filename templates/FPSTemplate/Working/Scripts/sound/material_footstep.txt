@@ -1,0 +1,60 @@
+$STDPitch = random(0.98, 1.02)
+
+Footstep.Base
+{
+	channel = SFX
+
+	// most sources will override volume anyway
+	volume = 1 
+
+	pitch = $STDPitch
+}
+
+Footstep.concrete : Footstep.Base
+{
+	sound = select(random)
+	{
+		"Audio/Footsteps/concrete/concrete_step-01.ogg",
+		"Audio/Footsteps/concrete/concrete_step-02.ogg",
+		"Audio/Footsteps/concrete/concrete_step-03.ogg",
+		"Audio/Footsteps/concrete/concrete_step-04.ogg",
+		"Audio/Footsteps/concrete/concrete_step-05.ogg",
+		"Audio/Footsteps/concrete/concrete_step-06.ogg",
+		"Audio/Footsteps/concrete/concrete_step-07.ogg",
+		"Audio/Footsteps/concrete/concrete_step-08.ogg",
+	}
+}
+
+Footstep.grass : Footstep.Base
+{
+	sound = select(random)
+	{
+		"Audio/Footsteps/grass/grass_step-01.ogg",
+		"Audio/Footsteps/grass/grass_step-02.ogg",
+		"Audio/Footsteps/grass/grass_step-03.ogg",
+		"Audio/Footsteps/grass/grass_step-04.ogg",
+		"Audio/Footsteps/grass/grass_step-05.ogg",
+		"Audio/Footsteps/grass/grass_step-06.ogg",
+		"Audio/Footsteps/grass/grass_step-07.ogg",
+	}
+}
+
+Footstep.woodpoor : Footstep.Base
+{
+	sound = select(random)
+	{
+		"Audio/Footsteps/woodpoor/woodpoor_step-01.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-02.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-03.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-04.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-05.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-06.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-07.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-08.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-09.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-10.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-11.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-12.ogg",
+		"Audio/Footsteps/woodpoor/woodpoor_step-13.ogg",
+	}
+}

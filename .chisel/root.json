@@ -3,7 +3,7 @@
   "engineCommit": "98c04f28d55973dfeaee75941e914614baa2107c",
   "engineBranch": "stable",
   "engineVersion": "1.1.1",
-  "sdkVersion": null,
-  "sdkTemplateTree": null,
+  "sdkVersion": "1.0.2",
+  "sdkTemplateTree": "3fd4d5c127d00eca531308a822e706b578252de4",
   "channel": "stable"
 }

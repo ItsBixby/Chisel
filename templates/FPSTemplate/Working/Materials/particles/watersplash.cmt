@@ -1,0 +1,9 @@
+{
+  "name": "watersplash",
+  "texture": "Textures/particles/splash",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": true
+}

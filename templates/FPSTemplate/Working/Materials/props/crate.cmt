@@ -1,0 +1,9 @@
+{
+  "name": "Crate",
+  "texture": "Textures/props/crateColor",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/props/crateNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.7,
+  "transparent": false
+}

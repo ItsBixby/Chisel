@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FPSTestGame": {
+      "commandName": "Project",
+      "commandLineArgs": "-compile +developer 1"
+    }
+  }
+}

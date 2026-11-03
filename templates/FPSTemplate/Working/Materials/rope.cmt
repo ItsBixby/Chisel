@@ -1,0 +1,9 @@
+{
+  "name": "Rope",
+  "texture": "Textures/rope",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 1,
+  "transparent": false
+}

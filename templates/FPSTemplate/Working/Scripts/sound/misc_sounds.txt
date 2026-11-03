@@ -1,0 +1,47 @@
+Explosion.Large
+{
+	channel = SFX
+	volume = 0.68
+	pitch = random(0.88, 1.21)
+
+	maxDistance = 128
+	minDistance = 8
+
+	sound = select(random)
+	{
+		"Audio/explosion-01.ogg",
+		"Audio/explosion-02.ogg",
+		"Audio/explosion-03.ogg"
+	}
+}
+
+General.Accept
+{
+	channel = SFX
+	volume = 0.5
+	is3D = false
+	sound = "Audio/accept.ogg"
+}
+General.Deny
+{
+	channel = SFX
+	volume = 0.5
+	is3D = false
+	sound = "Audio/deny.ogg"
+}
+
+Flame.Ignite
+{
+	channel = SFX
+	volume = 0.2
+	is3D = true
+	sound = "Audio/flame_ignite.ogg"
+}
+Flame.Loop
+{
+	channel = SFX
+	volume = 0.4
+	is3D = true
+	loop = true
+	sound = "Audio/flame_loop.ogg"
+}

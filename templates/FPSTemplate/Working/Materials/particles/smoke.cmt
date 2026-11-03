@@ -1,0 +1,9 @@
+{
+  "name": "smoke",
+  "texture": "Textures/particles/smoke",
+  "specular": null,
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.2,
+  "transparent": false
+}

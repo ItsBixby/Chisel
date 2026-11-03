@@ -1,0 +1,59 @@
+$PhysicsPitch = random(0.85, 1.2)
+
+//Util
+Physics
+{
+	channel = SFX
+	pitch = $PhysicsPitch
+}
+
+// Crate
+Physics.crate.Impact : Physics
+{
+	sound = select(random)
+	{
+		"Audio/Physics/crate/impact_crate-01.ogg",
+		"Audio/Physics/crate/impact_crate-02.ogg",
+		"Audio/Physics/crate/impact_crate-03.ogg",
+		"Audio/Physics/crate/impact_crate-04.ogg",
+		"Audio/Physics/crate/impact_crate-05.ogg",
+		"Audio/Physics/crate/impact_crate-06.ogg",
+		"Audio/Physics/crate/impact_crate-07.ogg"
+	}
+}
+
+// OilDrum
+Physics.oildrum.Impact : Physics
+{
+	sound = select(random)
+	{
+		"Audio/Physics/oildrum/impact_oildrum-01.ogg",
+		"Audio/Physics/oildrum/impact_oildrum-02.ogg",
+		"Audio/Physics/oildrum/impact_oildrum-03.ogg",
+		"Audio/Physics/oildrum/impact_oildrum-04.ogg",
+		"Audio/Physics/oildrum/impact_oildrum-05.ogg",
+		"Audio/Physics/oildrum/impact_oildrum-06.ogg",
+		"Audio/Physics/oildrum/impact_oildrum-07.ogg"
+	}
+}
+
+// Flesh
+Physics.flesh.Impact : Physics
+{
+	sound = select(random)
+	{
+		"Audio/Physics/flesh/impact_flesh-01.ogg",
+		"Audio/Physics/flesh/impact_flesh-02.ogg",
+		"Audio/Physics/flesh/impact_flesh-03.ogg",
+		"Audio/Physics/flesh/impact_flesh-04.ogg",
+		"Audio/Physics/flesh/impact_flesh-05.ogg",
+		"Audio/Physics/flesh/impact_flesh-06.ogg",
+		"Audio/Physics/flesh/impact_flesh-07.ogg"
+	}
+}
+
+// Fall damage
+Physics.FallDamage : Physics
+{
+	sound = "Audio/falldamage.ogg"
+}

@@ -1,0 +1,77 @@
+{
+  "subsystemBehaviors": [
+    {
+      "emissionType": 0,
+      "renderType": 0,
+      "blendMode": 0,
+      "lifetime": 0.7,
+      "startDelay": 0.0,
+      "particleSpawnRate": 0.05,
+      "particles": 8,
+      "material": "debris",
+      "model": "",
+      "startVelocity": {
+        "min": "-3, 4, -3",
+        "max": "3, 8, 3"
+      },
+      "startPosition": {
+        "min": "0, 0.05, 0",
+        "max": "0, 0.05, 0"
+      },
+      "startSize": {
+        "min": 0.05,
+        "max": 0.25
+      },
+      "angularVelocity": {
+        "min": 0.1,
+        "max": 180.0
+      },
+      "startFrame": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "startColor": {
+        "min": {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        },
+        "max": {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        }
+      },
+      "endColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "sizeOverLifetime": {
+        "start": 1.0,
+        "mid": 1.0,
+        "end": 1.0
+      },
+      "alphaOverLifetime": {
+        "start": 1.0,
+        "mid": 1.0,
+        "end": 0.0
+      },
+      "ignoreLighting": false,
+      "gravity": -24.0,
+      "spriteSheetColumns": 0,
+      "spriteSheetRows": 0,
+      "spriteSheetTotalFrames": 0,
+      "spriteFramesPerSecond": 0.0,
+      "spriteLoopFrames": false,
+      "spriteMaxTime": "-Infinity"
+    }
+  ],
+  "lifetime": 1.0,
+  "collidesWithWorld": true,
+  "bounce": 0.8,
+  "velocityDampening": 26.0
+}

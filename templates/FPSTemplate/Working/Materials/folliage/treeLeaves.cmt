@@ -1,0 +1,10 @@
+{
+  "name": "Tree Leaves",
+  "texture": "Textures/folliage/treeLeavesDiffuse",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/base/basicNormal",
+  "surfaceType": "concrete",
+  "reflectivity": 0.7,
+  "transparent": true,
+  "noCull": false
+}

@@ -1,0 +1,27 @@
+﻿// basic soundscapes for outdoors.
+
+Outdoor.Day
+{
+	wind
+	{
+		channel = SFX
+		mode = looping
+		sound = "Audio/Ambient/wind.ogg"
+		volume = 0.3
+	}
+	birds
+	{
+		channel = SFX
+		mode = random
+		interval = random(3, 15)
+		position = rndpos(6, 18)
+		sound = select(random)
+		{
+			"Audio/Ambient/birds-01.ogg",
+			"Audio/Ambient/birds-02.ogg",
+			"Audio/Ambient/birds-03.ogg",
+			"Audio/Ambient/birds-04.ogg",
+			"Audio/Ambient/birds-05.ogg"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Water 01",
+  "texture": "Textures/fluid/water01Diffuse",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/base/basicNormal",
+  "dudv": "Textures/fluid/waterDUDV", // This is a custom texture. Not defined in the base spec, but it will be passed anyway
+  "shaderName": "Water",
+  "surfaceType": "concrete",
+  "reflectivity": 0.7,
+  "transparent": true,
+  "noCull": true,
+  "shaderFlags": {
+    "receivePlanarReflection": true,
+    "receiveRefractionTexture": true
+  }
+}

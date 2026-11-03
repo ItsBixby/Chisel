@@ -1,0 +1,9 @@
+{
+  "name": "Brick 01",
+  "texture": "Textures/brick/brick01Diffuse",
+  "specular": "Textures/base/basicSpecular",
+  "normal": "Textures/brick/brick01Normal",
+  "surfaceType": "concrete",
+  "reflectivity": 1.0,
+  "transparent": false
+}
