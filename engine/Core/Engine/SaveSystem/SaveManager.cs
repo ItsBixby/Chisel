@@ -74,7 +74,7 @@ namespace Engine.SaveSystem
     }
     public static class SaveManager
     {
-        private static string savePath => $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData, Environment.SpecialFolderOption.Create)}/{GameSettings.GameName}";
+        private static string savePath => GameSettings.DataRoot;
         private static Save currentSave;
         private static Dictionary<string, Save.MapStateSaveData> sessionMapStates = new();
         private static JsonSerializerSettings settings = new JsonSerializerSettings

@@ -26,7 +26,15 @@ public enum OptionsTab
 public static class GameSettings
 {
     public static string GameName = "ChiselGame";
-    private static string savePath => $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData,Environment.SpecialFolderOption.Create)}/{GameName}/game.cfg";
+    public static string CompanyName = "Pet The Dog Studios";
+
+    public static string DataRoot => Path.Combine(
+    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData,
+                              Environment.SpecialFolderOption.Create),
+    CompanyName, GameName);
+
+    private static string savePath => Path.Combine(DataRoot, "game.cfg");
+
 
     private static readonly List<string> tabs = new();
     private static readonly Dictionary<string, List<ListedOption>> options = new();

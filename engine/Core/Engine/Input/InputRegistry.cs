@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Engine.Input;
 public static class InputRegistry
 {
-    private static string savePath => $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData, Environment.SpecialFolderOption.Create)}/{GameSettings.GameName}/keys.cfg";
+    private static string savePath => Path.Combine(GameSettings.DataRoot, "keys.cfg");
     private static readonly Dictionary<string, InputBinding> bindings = new();
 
     internal static void Register(InputBinding binding)

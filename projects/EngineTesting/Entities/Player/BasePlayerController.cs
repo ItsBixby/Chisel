@@ -386,14 +386,13 @@ public partial class BasePlayerController : CameraController, LivingActor
             MainEngine.CurrentRealtimeLights[flashlightLightIndex] = flashlightLight;
         }
 
-        int PissIndex = 0;
 
         //Piss Mechanic
         if (PlayerInput.Piss.HasBeenPressed())
         {
-            PissIndex = ParticleManager.SpawnParticleSystem(entity.Position, $"{GameEngine.FullPath}/Particles/Piss.crp");
-            Logger.AppendInfo("This nigga's pissing!!!" + PissIndex);
-
+            int ThisPiss = ParticleManager.SpawnParticleSystem(entity.Position, $"{GameEngine.FullPath}/Particles/Piss.crp");
+            Logger.AppendInfo("This nigga's pissing!!!" + ThisPiss);
+            ParticleManager.GetSpawner(ThisPiss).system.position = entity.Position;
 
         }
         if (PlayerInput.Piss.HasBeenReleased())
