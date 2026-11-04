@@ -50,7 +50,7 @@ public class GameEngine : MainEngine
 
     public GameEngine() : base()
     {
-        GameSettings.GameName = "FPSGame";
+        GameSettings.GameName = "Bark A1";
         Content.RootDirectory = "Content";
         IsMouseVisible = false;
         Instance = this;
