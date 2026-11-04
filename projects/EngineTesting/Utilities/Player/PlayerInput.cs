@@ -10,6 +10,9 @@ public static class PlayerInput
     public static InputBinding Reload;
     public static InputBinding Flashlight;
 
+    //Piss
+    public static InputBinding Piss;
+
     // Movement
     public static InputBinding Forward;
     public static InputBinding Backward;
@@ -66,6 +69,11 @@ public static class PlayerInput
         Flashlight = new InputBinding("flashlight", "Flashlight", "Combat",
             new BoundKey { Key = Keys.F },
             new BoundGamepadButton(0, Buttons.B));
+
+        // Piss
+        Piss = new InputBinding("piss", "Piss", "Amiri Fetish",
+            new BoundKey { Key = Keys.P },
+            new BoundGamepadButton(0, Buttons.DPadUp));
 
         // Movement
         Forward = new InputBinding("move_forward", "Move Forward", "Movement",

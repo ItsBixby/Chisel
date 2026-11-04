@@ -3006,3 +3006,12 @@
 
 #begin ../Working/Scenes/npc_vo/suppress02.morph
 /copy:../Working/Scenes/npc_vo/suppress02.morph;Scenes/npc_vo/suppress02.morph
+
+#begin ../Working/Maps/TestBark.cmap
+/copy:../Working/Maps/TestBark.cmap;Maps/TestBark.cmap
+
+#begin ../Working/Maps/TestBark.clm
+/copy:../Working/Maps/TestBark.clm;Maps/TestBark.clm
+
+#begin ../Working/Particles/Piss.crp
+/copy:../Working/Particles/Piss.crp;Particles/Piss.crp

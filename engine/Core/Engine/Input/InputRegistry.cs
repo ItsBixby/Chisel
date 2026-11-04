@@ -41,6 +41,7 @@ public static class InputRegistry
                                 ? BindingData.FromBinding(s) : null
             });
 
+        Directory.CreateDirectory(Path.GetDirectoryName(savePath)!);
         File.WriteAllText(savePath, JsonConvert.SerializeObject(data, Formatting.Indented));
     }
     public static void Load()
@@ -54,13 +55,17 @@ public static class InputRegistry
 
         foreach (var (id, saved) in data)
         {
-            if (!bindings.TryGetValue(id, out var binding)) continue;
+            if (saved == null || !bindings.TryGetValue(id, out var binding)) continue;
 
             try
             {
-                binding.Rebind(saved.Primary.ToBinding(), isPrimary: true);
-                if (saved.Secondary != null)
-                    binding.Rebind(saved.Secondary.ToBinding(), isPrimary: false);
+                var primary = saved.Primary?.ToBinding();
+                if (primary != null)
+                    binding.Rebind(primary, isPrimary: true);
+
+                var secondary = saved.Secondary?.ToBinding();
+                if (secondary != null)
+                    binding.Rebind(secondary, isPrimary: false);
             }
             catch { /* corrupted entry, leave at default */ }
         }

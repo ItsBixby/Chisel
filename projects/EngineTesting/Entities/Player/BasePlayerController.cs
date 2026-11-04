@@ -386,7 +386,22 @@ public partial class BasePlayerController : CameraController, LivingActor
             MainEngine.CurrentRealtimeLights[flashlightLightIndex] = flashlightLight;
         }
 
-        previousVelocity = entity.Velocity;
+        int PissIndex = 0;
+
+        //Piss Mechanic
+        if (PlayerInput.Piss.HasBeenPressed())
+        {
+            PissIndex = ParticleManager.SpawnParticleSystem(entity.Position, $"{GameEngine.FullPath}/Particles/Piss.crp");
+            Logger.AppendInfo("This nigga's pissing!!!" + PissIndex);
+
+
+        }
+        if (PlayerInput.Piss.HasBeenReleased())
+        {
+            //ParticleManager.GetSpawner(PissIndex).system.
+        }
+
+            previousVelocity = entity.Velocity;
     }
 
     private void UpdateWeapons(Matrix flashlightRotation)
