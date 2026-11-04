@@ -3015,3 +3015,132 @@
 
 #begin ../Working/Particles/Piss.crp
 /copy:../Working/Particles/Piss.crp;Particles/Piss.crp
+
+#begin ../Working/Gum/Screens/Loading.gusx
+/copy:../Working/Gum/Screens/Loading.gusx;Gum/Screens/Loading.gusx
+
+#begin ../Working/Gum/FontCache/Font126MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font126MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font126MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font126MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font126MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font126MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font126MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font126MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font126MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font25MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font25MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font25MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font25MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font25MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font25MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font25MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font25MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font25MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font253MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font81MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font81MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font81MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font81MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font81MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font81MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font81MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font81MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font81MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font169MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font253MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font253MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_1.png
+/copy:../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_1.png;Gum/FontCache/Font253MS_Reference_Sans_Serif_1.png
+
+#begin ../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_2.png
+/copy:../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_2.png;Gum/FontCache/Font253MS_Reference_Sans_Serif_2.png
+
+#begin ../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_3.png
+/copy:../Working/Gum/FontCache/Font253MS_Reference_Sans_Serif_3.png;Gum/FontCache/Font253MS_Reference_Sans_Serif_3.png
+
+#begin ../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font169MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font169MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif_1.png
+/copy:../Working/Gum/FontCache/Font169MS_Reference_Sans_Serif_1.png;Gum/FontCache/Font169MS_Reference_Sans_Serif_1.png
+
+#begin ../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font173MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font173MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font173MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif_1.png
+/copy:../Working/Gum/FontCache/Font173MS_Reference_Sans_Serif_1.png;Gum/FontCache/Font173MS_Reference_Sans_Serif_1.png
+
+#begin ../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font244MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font205MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font244MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font244MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif_1.png
+/copy:../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif_1.png;Gum/FontCache/Font244MS_Reference_Sans_Serif_1.png
+
+#begin ../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif_2.png
+/copy:../Working/Gum/FontCache/Font244MS_Reference_Sans_Serif_2.png;Gum/FontCache/Font244MS_Reference_Sans_Serif_2.png
+
+#begin ../Working/Gum/FontCache/Font114MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font114MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font114MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font114MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font114MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font114MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font114MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font114MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font114MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font205MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font205MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif_1.png
+/copy:../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif_1.png;Gum/FontCache/Font205MS_Reference_Sans_Serif_1.png
+
+#begin ../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif_2.png
+/copy:../Working/Gum/FontCache/Font205MS_Reference_Sans_Serif_2.png;Gum/FontCache/Font205MS_Reference_Sans_Serif_2.png
+
+#begin ../Working/Gum/FontCache/Font46MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font46MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font46MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font46MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font46MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font46MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font46MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font46MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font46MS_Reference_Sans_Serif_0.png
+
+#begin ../Working/Gum/FontCache/Font50MS_Reference_Sans_Serif.bmfc
+/copy:../Working/Gum/FontCache/Font50MS_Reference_Sans_Serif.bmfc;Gum/FontCache/Font50MS_Reference_Sans_Serif.bmfc
+
+#begin ../Working/Gum/FontCache/Font50MS_Reference_Sans_Serif.fnt
+/copy:../Working/Gum/FontCache/Font50MS_Reference_Sans_Serif.fnt;Gum/FontCache/Font50MS_Reference_Sans_Serif.fnt
+
+#begin ../Working/Gum/FontCache/Font50MS_Reference_Sans_Serif_0.png
+/copy:../Working/Gum/FontCache/Font50MS_Reference_Sans_Serif_0.png;Gum/FontCache/Font50MS_Reference_Sans_Serif_0.png

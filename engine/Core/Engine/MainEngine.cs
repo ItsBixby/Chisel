@@ -930,6 +930,9 @@ namespace Engine
             PhysicsEngine.Clear();
             CurrentRealtimeLights = new FixedList<Light>(MaxRealtimeLights);
 
+            //UI
+            GumUtils.ShowScreen("Loading");
+
             Task.Run(() =>
             {
 #if !DEBUG
@@ -1243,6 +1246,7 @@ namespace Engine
 
             RenderEngine.OnMapLoaded();
             PhysicsEngine.OnMapLoaded();
+            GumUtils.RemoveScreen("Loading");
             PreviousFrameDelta = 0f;
             IsLoading = false;
             willMapBeLoaded = true;

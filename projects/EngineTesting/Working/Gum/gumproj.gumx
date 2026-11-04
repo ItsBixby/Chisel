@@ -6,8 +6,8 @@
   <FontSpacingHorizontal>1</FontSpacingHorizontal>
   <UseFontCharacterFile>false</UseFontCharacterFile>
   <Version>1</Version>
-  <DefaultCanvasWidth>800</DefaultCanvasWidth>
-  <DefaultCanvasHeight>600</DefaultCanvasHeight>
+  <DefaultCanvasWidth>1920</DefaultCanvasWidth>
+  <DefaultCanvasHeight>1080</DefaultCanvasHeight>
   <ShowOutlines>true</ShowOutlines>
   <ShowCanvasOutline>true</ShowCanvasOutline>
   <ShowRuler>true</ShowRuler>
@@ -21,6 +21,11 @@
   <CurrentLanguageIndex>0</CurrentLanguageIndex>
   <ScreenReference>
     <Name>DemoScreenGum</Name>
+    <ElementType>Screen</ElementType>
+    <LinkType>ReferenceOriginal</LinkType>
+  </ScreenReference>
+  <ScreenReference>
+    <Name>Loading</Name>
     <ElementType>Screen</ElementType>
     <LinkType>ReferenceOriginal</LinkType>
   </ScreenReference>

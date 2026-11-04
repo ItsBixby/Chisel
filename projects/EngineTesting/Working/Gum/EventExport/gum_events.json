@@ -1,5 +1,28 @@
 {
   "UserEvents": {
-    "9b03f2fe572a6b13f21643551d7f4fa7810b4670538920487a398cbc16f491c2": []
+    "9b03f2fe572a6b13f21643551d7f4fa7810b4670538920487a398cbc16f491c2": [],
+    "fd26cd706808bde483b6072be5da69621f8bcae85953179f4308f1b44fe2d0ea": [
+      {
+        "NewName": "Loading",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-11-04T06:01:06.1718239Z"
+      },
+      {
+        "NewName": "Loading.TextPanel",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-11-04T06:05:16.6632165Z"
+      },
+      {
+        "NewName": "Loading.RectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-11-04T06:07:02.8611028Z"
+      }
+    ]
   }
 }
